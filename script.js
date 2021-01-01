@@ -23,7 +23,7 @@ setInterval(setDate, 1000)
 function odliczanie(){
     let wynik = document.querySelector('#wynik');
 let dzis=new Date()
- let nowyRok=new Date("December 31, 2020 23:59:59");
+ let nowyRok=new Date("December 31, 2021 23:59:59");
  let godziny =1000*60*60;
  wynik.innerHTML='Nowy ROK za: ' +((nowyRok.getTime()-dzis.getTime()))/godziny+' h';
 if((nowyRok.getTime()-dzis.getTime())==0){
