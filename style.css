@@ -218,4 +218,7 @@ a{
         bottom: 40%;
         left :30%;
     }
+    .logo img{
+        width: 80px
+    }
 }
