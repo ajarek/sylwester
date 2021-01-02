@@ -26,8 +26,6 @@ let dzis=new Date()
  let nowyRok=new Date("December 31, 2021 23:59:59");
  let godziny =1000*60*60;
  wynik.innerHTML='Nowy ROK za: ' +(((nowyRok.getTime()-dzis.getTime()))/godziny).toFixed(2)+' h';
-if((nowyRok.getTime()-dzis.getTime()/godziny)<0){
-wynik.innerHTML='Szczęśliwego Nowego 2022 Roku';
-}
+
 }
 setInterval(odliczanie, 1000)
